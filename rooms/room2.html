@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>El Bedoui | Room 2</title>
+	<meta charset="utf-8">
+	<meta name="author" content="Aymen Khedhria">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="../css/stylesroom.css">
+</head>
+<body>
+
+
+	<header>
+		<div class="container">
+			<a href="../index.html#main"><img src="../img/header/bedoui.png"></a>
+			<nav>
+				<ul>
+					<li id="active"><a href="../index.html#main">HOME</a></li>
+					<li><a href="../index.html#rooms">ROOMS</a></li>
+					<li><a href="../index.html#payment">PAYMENT</a></li>
+					<li><a href="../booking.html">BOOKING</a></li>
+					<li><a href="../contact.html">CONTACT</a></li>
+					<li><a href="../index.html#aboutus">ABOUT</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+
+	<section id="main">
+		<div class="container">
+			<h1>Room Preview</h1>
+			<div class="slidedisplay">
+			  <img class="mySlides" src="../img/rooms/2/1.jpg" style="width:80%; margin:auto;">
+			  <img class="mySlides" src="../img/rooms/2/2.jpg" style="width:80%; margin:auto;">
+			  <img class="mySlides" src="../img/rooms/2/3.jpg" style="width:80%; margin:auto;">
+
+			  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+			  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+			</div>
+
+		</div>
+	</section>
+
+
+
+	<footer>
+		<div class="container">
+			<div class="footersection">
+				<img src="../img/footer/bedoui.png">
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				</p>
+			</div>
+
+			<div class="footersection">
+				<h3>Get In Touch</h3>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				</p>
+			</div>
+
+			<div class="footersection">
+				<h3>Site Map</h3>
+				<nav>
+					<ul>
+						<li><a href="../index.html#main">HOME</a></li>
+						<li><a href="../index.html#rooms">ROOMS</a></li>
+						<li><a href="../index.html#payment">PAYMENT</a></li>
+						<li><a href="../booking.html">BOOKING</a></li>
+						<li><a href="../contact.html">CONTACT</a></li>
+						<li><a href="../index.html#aboutus">ABOUT</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</footer>
+	<div id="copyright">
+		<h3>Aymen Khedhria &copy; 2019</h3>
+	</div>
+	<script>
+		var slideIndex = 1;
+		showDivs(slideIndex);
+
+		function plusDivs(n) 
+		{
+		  showDivs(slideIndex += n);
+		}
+
+		function showDivs(n) 
+		{
+		  var i;
+		  var x = document.getElementsByClassName("mySlides");
+		  
+		  if (n > x.length) 
+		  	{
+		  		slideIndex = 1
+		  	}
+		  if (n < 1) 
+		  	{
+		  		slideIndex = x.length
+		  	}
+		  for (i = 0; i < x.length; i++) 
+		  {
+		    x[i].style.display = "none";  
+		  }
+
+		  x[slideIndex-1].style.display = "block";  
+		}
+	</script>
+
+
+</body>
+</html>

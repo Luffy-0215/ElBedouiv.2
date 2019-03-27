@@ -1,0 +1,175 @@
+/*
+	GLOBAL STYLING
+*/
+
+html	
+{
+	scroll-behavior: smooth;
+}
+
+body
+{
+	font: Arial, Helvetica, sans-serif 15px/1.5;
+	padding: 0;
+	margin: 0;
+	background-color: #4b4b4b;
+}
+
+.container
+{
+	width: 90%;
+	margin: auto;
+	text-align: center;
+	overflow: hidden;
+}
+
+/*
+	STYLING FOR THE HEADER (menu/logo)
+*/
+
+
+header
+{
+	min-height: 70px;
+	width: 100%;
+	color: #ffffff;
+	background-color: rgba(60, 60, 62, 1);
+	border-bottom: solid 3px #f5cd79;
+}
+
+header img
+{
+	width: 150px;
+	float: left;
+	margin-top: 20px;
+}
+
+header nav
+{
+	float: right;
+	margin-top: 30px;
+	font-size: 12px;
+}
+
+header nav a
+{
+	text-decoration: none;
+	color: #ffffff;
+	font: Arial, Helvetica, sans-serif;
+}
+
+header nav a:hover
+{
+	color: #f5cd79;
+}
+
+header nav ul
+{
+	padding: 0;
+	margin: 0;
+}
+
+
+header nav li
+{
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+/*
+	
+*/
+
+#main
+{
+	min-height: 700px;
+}
+
+#main h1
+{
+	font-size: 25px;
+	color: #ffffff;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+#main .mySlides 
+{
+	display:none;
+}
+
+
+
+
+
+
+/*
+	STYLING FOR THE FOOTER
+*/
+
+footer
+{
+	min-height: 300px;
+	background-color: #171719;
+	text-align: center;
+}
+
+footer .footersection
+{
+	width: 30%;
+	float: left;
+	margin-top: 50px;
+	padding: 0 12px 0 12px;
+}
+
+footer .footersection img
+{
+	width: 150px;
+	margin-top: 10px;
+}
+
+footer .footersection h3
+{
+	color: #CAD3C8;
+}
+
+footer .footersection p
+{
+	font-size: 15px;
+	color: #ffffff;
+	text-align: left;
+}
+
+
+footer .footersection ul
+{
+	padding: 0;
+	margin: 0;
+	font-size: 12px;
+}
+
+footer .footersection li
+{
+	display: block;
+	padding: 10px 0 10px 0;
+}
+
+footer .footersection a
+{
+	text-decoration: none;
+	color: #ffffff;
+}
+
+footer .footersection a:hover
+{
+	color: #f5cd79;
+}
+
+#copyright
+{
+	border-top: solid 2px #f5cd79;
+	color: #ffffff;
+	background-color: #3c3c3e;
+	text-align: center;
+	padding: 12px;
+}
